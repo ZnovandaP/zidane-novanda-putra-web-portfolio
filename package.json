@@ -1,0 +1,17 @@
+{
+  "name": "web_portfolio_tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "tailwindcss -i ./src/css/tailwind.css -o ./src/css/output/style.css --watch    "
+  },
+  "author": "Zidane Novanda Putra",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^6.0.0",
+    "postcss": "^8.4.23",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.1"
+  }
+}

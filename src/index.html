@@ -1,0 +1,1143 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZnovandaP | Portfolio</title>
+    <link rel="stylesheet" href="css/output/minify.css" />
+    <link
+      rel="shortcut icon"
+      href="../public/icon/favicon/favicon.png"
+      type="image/x-icon"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  </head>
+  <body
+    class="font-montserrat overflow-x-hidden box-border bg-gray-50 dark:bg-dark-bg selection:bg-purple-700 selection:text-gray-100 selection:font-semibold transition-all duration-500"
+  >
+    <!-- nav mobile -->
+    <header
+      class="container px-3 fixed bottom-8 left-1/2 -translate-x-1/2 h-12 z-40 sm:max-w-full md:hidden"
+    >
+      <nav
+        class="flex items-center bg-gray-100 dark:bg-gray-300 px-2 h-[52px] py-2 rounded-full ring-2 ring-gray-400 relative"
+      >
+        <a
+          href="#home"
+          class="nav-link-mobile home home-button absolute -top-[52px] left-1/2 -translate-x-1/2 bg-purple-500 ring-2 ring-gray-400 rounded-full flex justify-center items-center hover:bg-purple-800 transition-all duration-300 overflow-hidden"
+          title="Button Home"
+        >
+          <img
+            src="../public/img/author.png"
+            loading="lazy"
+            alt="Zidane Novanda Putra Image"
+            class="w-12 h-12 object-cover object-center"
+          />
+        </a>
+        <ul class="flex justify-evenly items-center w-full font-medium">
+
+          <li class="nav-link-mobile link-scroll-mobile about  hover-nav">
+            <a
+              href="#about"
+              class="flex flex-col justify-center items-center"
+              title="About"
+            >
+              <img src="../public/icon/nav_icon/user.svg" alt="About Icon" />
+              <h1
+                class="link-info text-xs sm:text-sm text-gray-700 font-bold text-center"
+              >
+                About
+              </h1>
+            </a>
+          </li>
+          <li class="nav-link-mobile link-scroll-mobile skills hover-nav">
+            <a
+              href="#skills"
+              class="flex flex-col  justify-center items-center"
+              title="Skills"
+            >
+              <img src="../public/icon/nav_icon/code.svg" alt="Skills Icon" />
+              <h1
+                class="link-info text-xs sm:text-sm text-gray-700 font-bold text-center"
+              >
+                Skills
+              </h1>
+            </a>
+          </li>
+          <li class="nav-link-mobile link-scroll-mobile projects hover-nav">
+            <a
+              href="#projects"
+              class="flex flex-col justify-center items-center"
+              title="Projects"
+            >
+              <img
+                src="../public/icon/nav_icon/file-text.svg"
+                alt="Projects Icon"
+              />
+              <h1
+                class="link-info text-xs sm:text-sm text-gray-700 font-bold text-center"
+              >
+                Projects
+              </h1>
+            </a>
+          </li>
+          <li class="nav-link-mobile link-scroll-mobile contact hover-nav">
+            <a
+              href="#contact"
+              class="flex flex-col justify-center items-center"
+              title="Contact"
+            >
+              <img src="../public/icon/nav_icon/mail.svg" alt="Contact Icon" />
+              <h1
+                class="link-info text-xs sm:text-sm text-gray-700 font-bold text-center"
+              >
+                Contact
+              </h1>
+            </a>
+          </li>
+          <li>
+            <button
+              type="button"
+              title="Dark Mode Button"
+              class="dark-mode hover-dark-icon w-full h-full"
+            >
+              <img
+                class="dark-mode-icon"
+                src="../public/icon/dark_mode_icon/dark-icon.svg"
+                loading="lazy"
+                alt="Dark Mode Icon"
+                width="22px"
+              />
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- nav Desktop -->
+    <header
+      class="hidden container px-3 fixed bottom-8 left-1/2 -translate-x-1/2 h-12 md:block md:top-8 md:w-[75%] lg:w-[60%] z-40"
+    >
+      <nav
+        id="header-container"
+        class="flex items-center bg-gray-100 dark:bg-gray-300 p-2 h-11 rounded-full ring-2 ring-gray-400 relative transition-all duration-300 bg-gray-100"
+      >
+        <a
+          class="nav-link home home-button absolute top-0 -left-16 w-12 h-12 bg-purple-500 ring-2 ring-gray-400 rounded-full flex justify-center items-center hover:bg-purple-600 hover:scale-110 transition-all duration-300 overflow-hidden"
+          title="Button Home"
+        >
+          <img
+            src="../public/img/author.png"
+            loading="lazy"
+            alt="Zidane Novanda Putra Image"
+            class="w-full h-full object-cover object-center"
+          />
+        </a>
+        <ul class="flex justify-evenly items-center w-full font-medium">
+          <li class="nav-link link-scroll about hover-nav">
+            <a href="#about" class="">About</a>
+          </li>
+          <li class="nav-link link-scroll skills hover-nav"><a href="#skills">Skills</a></li>
+          <li class="nav-link link-scroll projects hover-nav"><a href="#projects">Projects</a></li>
+          <li class="nav-link link-scroll contact hover-nav"><a href="#contact">Contact</a></li>
+          <li>
+            <button
+              type="button"
+              title="Dark Mode Button"
+              class="dark-mode hover-dark-icon w-full h-full"
+            >
+              <img
+                class="dark-mode-icon"
+                src="../public/icon/dark_mode_icon/dark-icon.svg"
+                loading="lazy"
+                alt="Dark Mode Icon"
+                width="22px"
+              />
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article
+        id="home"
+        class="container grid grid-cols-1 gap-y-4 p-4 md:grid-cols-2 md:gap-x-6 md:bg-transparent md:dark:bg-transparent md:mt-40 lg:mt-[180px] lg:px-8 transition-all duration-500"
+      >
+        <section
+          class="flex flex-col px-3 py-4 rounded-xl sm:items-center md:bg-transparent md:dark:bg-transparent md:self-center transition-all duration-500"
+        >
+          <h1
+            class="text-[26px] font-semibold text-gray-700 dark:text-gray-200 tracking-wide xl:text-[32px]"
+          >
+            Hello, I'm Zidane Novanda Putra
+          </h1>
+          <h2
+            class="text-xl mt-2 font-alkatra self-start font-medium text-gray-700 dark:text-gray-100 tracking-wide lg:text-[22px]"
+          >
+            I'm Is
+            <code
+              class="font-bold bg-gradient-to-r from-blue-600 to-pink-600 dark:bg-gradient-to-r dark:from-blue-400 dark:to-pink-600 text-transparent bg-clip-text"
+              >&#60;Junior Front-End Web Developer&#62;
+            </code>
+          </h2>
+          <a
+            href="#"
+            class="button-download-cv text-center sm:w-1/2 md:w-full xl:w-2/3"
+            >Download CV</a
+          >
+        </section>
+
+        <section
+          class="flex flex-col bg-gray-100 shadow-sm shadow-gray-600 dark:bg-dark-tertiary rounded-xl gap-y-4 justify-center items-center md:dark:bg-dark-secondary transition-all duration-500 md:bg-gray-300 md:shadow-sm md:shadow-gray-700 md:relative"
+        >
+          <div
+            class="w-full px-0 flex items-center justify-center md:absolute md:-top-1/4"
+          >
+            <img
+              src="../public/img/zidane.JPG"
+              loading="lazy"
+              alt="Zidane Novanda Putra (Author Web Portfolio ZnovandaP)"
+              class="h-44 w-full object-cover object-center rounded-tl-xl rounded-tr-xl grayscale sm:h-60 md:h-44 md:w-4/5 md:rounded-xl lg:h-60"
+            />
+          </div>
+          <div class="self-start relative pl-4 md:mt-[120px] lg:mt-[170px]">
+            <p
+              class="text-gray-700 font-semibold dark:text-gray-100 lg:text-xl"
+            >
+              where can you find me?...
+            </p>
+          </div>
+          <!-- icon socmed -->
+          <div class="grid w-full grid-cols-3 gap-2 px-4 pb-4 sm:grid-cols-4">
+            <a
+              href="https://github.com/ZnovandaP"
+              target="_blank"
+              class="group icon-socmed bg-github"
+            >
+              <img
+                src="../public/icon/socmed_icon/github.svg"
+                width="25px"
+                loading="lazy"
+                alt="Github Icon"
+                class="image-icon-socmed"
+              />
+              <h3 class="text-icon lg:text-base">Github</h3>
+            </a>
+            <a href="https://www.linkedin.com/in/zidane-novanda-putra-58a9b3227/" target="_blank" class="group icon-socmed bg-linkedin">
+              <img
+                src="../public/icon/socmed_icon/linkedin.svg"
+                width="25px"
+                loading="lazy"
+                alt="LinkedIn Icon"
+                class="image-icon-socmed"
+              />
+              <h3 class="text-icon lg:text-base">LinkedIn</h3>
+            </a>
+            <a href="https://www.instagram.com/znovanda_p/" target="_blank" class="group icon-socmed bg-instagram">
+              <img
+                src="../public/icon/socmed_icon/instagram.svg"
+                width="25px"
+                loading="lazy"
+                alt="Instagram Icon"
+                class="image-icon-socmed"
+              />
+              <h3 class="text-icon lg:text-base">Intagram</h3>
+            </a>
+            <a href="https://www.facebook.com/zidane.n.putra.3" target="_blank" class="group icon-socmed bg-facebook">
+              <img
+                src="../public/icon/socmed_icon/facebook.svg"
+                width="25px"
+                loading="lazy"
+                alt="Facebook Icon"
+                class="image-icon-socmed"
+              />
+              <h3 class="text-icon lg:text-base">Facebook</h3>
+            </a>
+            <a
+              href="#"
+              target="_blank"
+              class="group icon-socmed col-start-3 bg-tiktok sm:col-start-1"
+            >
+              <img
+                src="../public/icon/socmed_icon/tiktok.svg"
+                width="25px"
+                loading="lazy"
+                alt="Tiktok Icon"
+                class="image-icon-socmed"
+              />
+              <h3 class="text-icon lg:text-base">Tiktok</h3>
+            </a>
+            <a href="#" target="_blank" class="group icon-socmed bg-twitter">
+              <img
+                src="../public/icon/socmed_icon/twitter.svg"
+                width="25px"
+                loading="lazy"
+                alt="Twitter Icon"
+                class="image-icon-socmed"
+              />
+              <h3 class="text-icon lg:text-base">Twitter</h3>
+            </a>
+            <a href="#" target="_blank" class="group icon-socmed bg-whatsapp">
+              <img
+                src="../public/icon/socmed_icon/whatsapp.svg"
+                width="25px"
+                loading="lazy"
+                alt="whatsapp Icon"
+                class="image-icon-socmed"
+              />
+              <h3 class="text-icon lg:text-base">Whatsapp</h3>
+            </a>
+            <a
+              href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=znovandaputra@gmail.com"
+              target="_blank"
+              class="group icon-socmed col-start-3 bg-teal-600 sm:col-start-4"
+            >
+              <img
+                src="../public/icon/socmed_icon/email.svg"
+                width="25px"
+                loading="lazy"
+                alt="Email Icon"
+                class="image-icon-socmed"
+              />
+              <h3 class="text-icon lg:text-base">Email</h3>
+            </a>
+          </div>
+        </section>
+      </article>
+
+      <article
+        id="about"
+        class="container grid grid-cols-1 px-4 gap-4 mt-6 md:grid-cols-2"
+      >
+        <section class="md:col-span-2">
+          <h1 class="title-head px-0">about</h1>
+        </section>
+
+        <section
+          class="animation-gradient w-full h-48 px-10 bg-purple-500 flex justify-center justify-self-center items-center rounded-tr-full rounded-tl-full sm:rounded-tr-none sm:h-60 sm:rounded-br-full mx-3 overflow-hidden ring-gray-400 ring-2 md:self-center md:rounded-full  md:mx-0 lg:rounded-full md:col-span-2 lg:col-span-1"
+        >
+          <img
+            src="../public/img/author.png"
+            alt="Zidane Novanda Putra"
+            loading="lazy"
+            class="w-full h-full object-cover object-center grayscale"
+          />
+        </section>
+
+        <section
+          class="flex flex-col w-full gap-3 text-gray-600 dark:text-gray-100 transition-all duration-500 md:col-span-2 lg:col-span-1"
+        >
+          <h1
+            class="capitalize font-semibold text-xl text-center text-transparent bg-gradient-to-r from-blue-600 to-pink-600 dark:bg-gradient-to-r dark:from-blue-400 dark:to-pink-600 bg-clip-text"
+          >
+            zidane novanda putra, Junior front-end web Developer
+          </h1>
+          <p class="text-paragraph">
+            Halo, Saya Zidane Novanda Putra, saya berdomisili di Kota Cimahi
+            Provinsi Jawa Barat. Pendidikan terakhir saya adalah SMK (Sekolah
+            Menengah Kejuruan) Negeri 1 Kota Cimahi dari jurusan Teknik
+            Pendingin dan Tata Udara. Walaupun background pendidikan saya tidak
+            memiliki korelasi dengan dunia teknologi informasi akan tetapi saya
+            memiliki minat dan ketertarikan yang tinggi dalam dunia teknologi
+            informasi khususnya pada bidang Front-end Web Developer.
+          </p>
+          <p class="text-paragraph">
+            Ketertarikan pada dunia teknologi informasi dimulai saat saya duduk
+            dibangku kelas 11 akhir, saya belajar mengenai bidang teknologi
+            informasi diawali dengan cara otodidak. Kesibukan saya saat ini
+            adalah fokus meng-upgrade dan meng-update skill saya di bidang
+            Front-end Web Developer baik hard skill maupun soft skill.
+          </p>
+        </section>
+
+        <section class="md:col-span-2">
+          <h1 class="title-section">Certification</h1>
+          <!-- card container -->
+          <section
+            class="grid grid-cols-1 gap-4 place-items-center place-content-center md:grid-cols-2 lg:grid-cols-3"
+          >
+            <!-- card -->
+            <section class="group card">
+              <div
+                class="rounded-lg w-full relative overflow-hidden cursor-pointer"
+              >
+                <img
+                  src="../public/img/certificate/certificate-basic-programming-web.png"
+                  alt="certification web programming"
+                  loading="lazy"
+                />
+                <div
+                  class="w-full h-full rounded-lg bg-gray-100/20 dark:bg-gray-800/30 backdrop-blur-md flex justify-center items-center absolute top-0 -translate-y-[999px] group-hover:translate-y-0 transition-all duration-500"
+                >
+                  <a
+                    href="https://drive.google.com/file/d/1dmnab_ZqzorkOM0Efj42bP58bl-wPfRQ/view?usp=share_link"
+                    target="_blank"
+                    class="button-download-cv text-center hover:scale-110 dark:hover:bg-purple-950 z-10"
+                    >Click for More</a
+                  >
+                </div>
+              </div>
+              <div>
+                <h1
+                  class="font-semibold text-center text-gray-600 dark:text-gray-100"
+                >
+                  Sertifikat Dasar Pemrograman Web
+                </h1>
+              </div>
+            </section>
+            <!-- card -->
+            <section class="group card">
+              <div
+                class="rounded-lg w-full relative overflow-hidden cursor-pointer"
+              >
+                <img
+                  src="../public/img/certificate/certificate-beginner-front-end.png"
+                  alt="certification web programming"
+                  loading="lazy"
+                />
+                <div
+                  class="w-full h-full rounded-lg bg-gray-100/20 dark:bg-gray-800/30 backdrop-blur-md flex justify-center items-center absolute top-0 -translate-y-[999px] group-hover:translate-y-0 transition-all duration-500"
+                >
+                  <a
+                    href="https://drive.google.com/file/d/1Oz6aWWSXMQHrTQH2BiYbIpV5zIHYkd6l/view?usp=share_link"
+                    target="_blank"
+                    class="button-download-cv text-center hover:scale-110 dark:hover:bg-purple-950 z-10"
+                    >Click for More</a
+                  >
+                </div>
+              </div>
+              <div>
+                <h1
+                  class="font-semibold text-center text-gray-600 dark:text-gray-100"
+                >
+                  Sertifikat Front-End Web Pemula
+                </h1>
+              </div>
+            </section>
+            <!-- card -->
+            <section
+              class="group card md:col-span-2 md:w-1/2 lg:col-span-1 lg:w-full"
+            >
+              <div
+                class="rounded-lg w-full relative overflow-hidden cursor-pointer"
+              >
+                <img
+                  src="../public/img/certificate/certificate-fundamental-front-end.png"
+                  alt="certification web programming"
+                  loading="lazy"
+                />
+                <div
+                  class="w-full h-full rounded-lg bg-gray-100/20 dark:bg-gray-800/30 backdrop-blur-md flex justify-center items-center absolute top-0 -translate-y-[999px] group-hover:translate-y-0 transition-all duration-500"
+                >
+                  <a
+                    href="https://drive.google.com/file/d/1wmZWUzHhvbo-ahexD_U5vJnNtMEfG4ci/view?usp=share_link"
+                    target="_blank"
+                    class="button-download-cv text-center hover:scale-110 dark:hover:bg-purple-950 z-10"
+                    >Click for More</a
+                  >
+                </div>
+              </div>
+              <div>
+                <h1
+                  class="font-semibold text-center text-gray-600 dark:text-gray-100"
+                >
+                  Sertifikat Fundamental Front-End Web
+                </h1>
+              </div>
+            </section>
+          </section>
+        </section>
+      </article>
+
+      <article id="skills" class="container grid grid-cols-1 gap-4 mt-10 px-4">
+        <section>
+          <h1 class="title-head px-0">skills</h1>
+        </section>
+
+        <section class="grid grid-cols-1 gap-10">
+          <section class="skills-reveal">
+            <h2 class="skills-title">
+              Programming Language
+              <span class="line-decoration"></span>
+            </h2>
+            <!-- parent card skills -->
+            <div class="flex flex-wrap items-center mt-2 ml-8">
+              <div class="skills-bar bg-javascript">
+                <img
+                  src="../public/icon/skills_icon/javascript.svg"
+                  loading="lazy"
+                  alt="Javascript Icon"
+                  class="w-[25px]"
+                />
+                <h3 class="detail-skills-icon">Javascript</h3>
+              </div>
+            </div>
+          </section>
+
+          <section class="skills-reveal">
+            <h2 class="skills-title">
+              Front-End & Frameworks
+              <span class="line-decoration"></span>
+            </h2>
+            <!-- parent card skills -->
+            <div class="flex flex-wrap items-center mt-4 ml-8 gap-4">
+              <div class="skills-bar bg-html">
+                <img
+                  src="../public/icon/skills_icon/html5.svg"
+                  loading="lazy"
+                  alt="HTML5 Icon"
+                  class="w-[25px]"
+                />
+                <h3 class="detail-skills-icon">HTML 5</h3>
+              </div>
+
+              <div class="skills-bar bg-css">
+                <img
+                  src="../public/icon/skills_icon/css3.svg"
+                  loading="lazy"
+                  alt="CSS3 Icon"
+                  class="w-[25px]"
+                />
+                <h3 class="detail-skills-icon">CSS 3</h3>
+              </div>
+
+              <div class="skills-bar bg-sass">
+                <img
+                  src="../public/icon/skills_icon/sass.svg"
+                  loading="lazy"
+                  alt="SASS/SCSS Icon"
+                  class="w-[25px]"
+                />
+                <h3 class="detail-skills-icon">SASS/SCSS</h3>
+              </div>
+
+              <div class="skills-bar bg-tailwindcss">
+                <img
+                  src="../public/icon/skills_icon/tailwindcss.svg"
+                  loading="lazy"
+                  alt="Tailwind CSS Icon"
+                  class="w-[25px]"
+                />
+                <h3 class="detail-skills-icon">Tailwind CSS</h3>
+              </div>
+
+              <div class="skills-bar bg-bootstrap">
+                <img
+                  src="../public/icon/skills_icon/bootstrap.svg"
+                  loading="lazy"
+                  alt="Bootstrap Icon"
+                  class="w-[25px]"
+                />
+                <h3 class="detail-skills-icon">Bootstrap</h3>
+              </div>
+
+              <div class="skills-bar bg-jquery">
+                <img
+                  src="../public/icon/skills_icon/jquery.svg"
+                  loading="lazy"
+                  alt="JQuery Icon"
+                  class="w-[25px]"
+                />
+                <h3 class="detail-skills-icon">JQuery</h3>
+              </div>
+
+              <div class="skills-bar bg-axios">
+                <img
+                  src="../public/icon/skills_icon/axios.svg"
+                  loading="lazy"
+                  alt="Axios Icon"
+                  class="w-[25px]"
+                />
+                <h3 class="detail-skills-icon">Axios</h3>
+              </div>
+            </div>
+          </section>
+
+          <section class="skills-reveal">
+            <h2 class="skills-title">
+              Development Tools
+              <span class="line-decoration"></span>
+            </h2>
+            <!-- parent card skills -->
+            <div class="flex flex-wrap items-center gap-4 mt-2 ml-8">
+              <div class="skills-bar bg-git">
+                <img
+                  src="../public/icon/skills_icon/git.svg"
+                  loading="lazy"
+                  alt="GIT Icon"
+                  class="w-[25px]"
+                />
+                <h3 class="detail-skills-icon">GIT</h3>
+              </div>
+              <div class="skills-bar bg-webpack">
+                <img
+                  src="../public/icon/skills_icon/webpack.svg"
+                  loading="lazy"
+                  alt="Webpack Icon"
+                  class="w-[25px]"
+                />
+                <h3 class="detail-skills-icon">Webpack</h3>
+              </div>
+              <div class="skills-bar bg-postman">
+                <img
+                  src="../public/icon/skills_icon/postman.svg"
+                  loading="lazy"
+                  alt="Postman Icon"
+                  class="w-[25px]"
+                />
+                <h3 class="detail-skills-icon">Postman</h3>
+              </div>
+            </div>
+          </section>
+        </section>
+      </article>
+
+      <article
+        id="projects"
+        class="container grid grid-cols-1 gap-4 mt-10 px-4"
+      >
+        <section>
+          <h1 class="title-head px-0">Projects</h1>
+        </section>
+
+        <section class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <!-- START CARD PROJECTS -->
+          <section class="group card">
+            <div
+              class="rounded-lg w-full relative overflow-hidden cursor-pointer h-52 sm:h-72 md:h-56 lg:h-52"
+            >
+              <img
+                src="../public/img/projects_image/nutrifruits/nutrifruits.png"
+                alt="Nutrifruits Project Image"
+                loading="lazy"
+                class="w-full h-full object-cover object-center"
+              />
+              <div
+                class="w-full h-full rounded-lg bg-gray-100/20 dark:bg-gray-800/30 backdrop-blur-md flex justify-center items-center absolute top-0 translate-y-[999px] group-hover:translate-y-0 transition-all duration-500"
+              >
+                <button
+                  data-id="001"
+                  type="button"
+                  class="detail-button button-download-cv text-center hover:scale-110 hover:bg-gray-100 dark:hover:bg-purple-950 z-10"
+                >
+                  Click for Details
+                </button>
+              </div>
+            </div>
+            <div>
+              <h1
+                class="font-semibold text-center text-gray-600 dark:text-gray-100"
+              >
+                Nutrifruits Landing Page
+              </h1>
+            </div>
+          </section>
+
+          <section class="group card">
+            <div
+              class="rounded-lg w-full relative overflow-hidden cursor-pointer h-52 sm:h-72 md:h-56 lg:h-52"
+            >
+              <img
+                src="../public/img/projects_image/pojok_baca/pojok_baca.png"
+                alt="Nutrifruits Project Image"
+                loading="lazy"
+                class="w-full h-full object-cover object-center"
+              />
+              <div
+                class="w-full h-full rounded-lg bg-gray-100/20 dark:bg-gray-800/30 backdrop-blur-md flex justify-center items-center absolute top-0 translate-y-[999px] group-hover:translate-y-0 transition-all duration-500"
+              >
+                <button
+                  data-id="002"
+                  type="button"
+                  class="detail-button button-download-cv text-center hover:scale-110 hover:bg-gray-100 dark:hover:bg-purple-950 z-10"
+                >
+                  Click for Details
+                </button>
+              </div>
+            </div>
+            <div>
+              <h1
+                class="font-semibold text-center text-gray-600 dark:text-gray-100"
+              >
+                Pojok Baca Bookshelf Apps
+              </h1>
+            </div>
+          </section>
+          <section class="group card">
+            <div
+              class="rounded-lg w-full relative overflow-hidden cursor-pointer h-52 sm:h-72 md:h-56 lg:h-52"
+            >
+              <img
+                src="../public/img/projects_image/cuacaqu/cuacaqu.png"
+                alt="Nutrifruits Project Image"
+                loading="lazy"
+                class="w-full h-full object-cover object-center"
+              />
+              <div
+                class="w-full h-full rounded-lg bg-gray-100/20 dark:bg-gray-800/30 backdrop-blur-md flex justify-center items-center absolute top-0 translate-y-[999px] group-hover:translate-y-0 transition-all duration-500"
+              >
+                <button
+                  data-id="003"
+                  type="button"
+                  class="detail-button button-download-cv text-center hover:scale-110 hover:bg-gray-100 dark:hover:bg-purple-950 z-10"
+                >
+                  Click for Details
+                </button>
+              </div>
+            </div>
+            <div>
+              <h1
+                class="font-semibold text-center text-gray-600 dark:text-gray-100"
+              >
+                CuacaQu Weather Apps
+              </h1>
+            </div>
+          </section>
+          <section class="group card lg:col-start-2">
+            <div
+              class="rounded-lg w-full relative overflow-hidden cursor-pointer h-52 sm:h-72 md:h-56 lg:h-52"
+            >
+              <img
+                src="../public/img/projects_image/ZnovandaP_portfolio/ZnovandaP.png"
+                alt="Nutrifruits Project Image"
+                loading="lazy"
+                class="w-full h-full object-cover object-center"
+              />
+              <div
+                class="w-full h-full rounded-lg bg-gray-100/20 dark:bg-gray-800/30 backdrop-blur-md flex justify-center items-center absolute top-0 translate-y-[999px] group-hover:translate-y-0 transition-all duration-500"
+              >
+                <button
+                  data-id="004"
+                  type="button"
+                  class="detail-button button-download-cv text-center hover:scale-110 hover:bg-gray-100 dark:hover:bg-purple-950 z-10"
+                >
+                  Click for Details
+                </button>
+              </div>
+            </div>
+            <div>
+              <h1
+                class="font-semibold text-center text-gray-600 dark:text-gray-100"
+              >
+                Personal Web Portfolio
+              </h1>
+            </div>
+          </section>
+          <!-- END CARD PROJECTS -->
+        </section>
+      </article>
+
+      <article id="contact" class="container mt-10 px-4">
+        <section>
+          <h1 class="title-head px-0">Contact</h1>
+        </section>
+        <form
+          action="https://formspree.io/f/mlekaaky"
+          method="POST"
+          autocomplete="off"
+          class="grid grid-cols-1 mt-8 gap-6 lg:grid-cols-2 lg:gap-8"
+        >
+          <div class="flex flex-col relative">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              minlength="3"
+              maxlength="30"
+              class="peer input contact-name"
+            />
+            <label for="name" class="label-input-focus label-name"
+              >Nama Anda</label
+            >
+            <p class="statement-input hidden statement-name">
+              Masukan minimal 3 karakter
+            </p>
+          </div>
+
+          <div class="lg:hidden">
+            <span
+              class="block bg-gray-700 dark:bg-gray-100 w-full h-[2px] rounded-full"
+            ></span>
+          </div>
+
+          <div class="flex flex-col relative">
+            <input
+              type="text"
+              id="institute"
+              name="institute"
+              required
+              minlength="3"
+              maxlength="30"
+              class="peer input contact-institute"
+            />
+            <label for="institute" class="label-input-focus label-institute"
+              >Instansi Anda</label
+            >
+            <p class="statement-input hidden statement-institute">
+              Masukan minimal 3 karakter
+            </p>
+          </div>
+
+          <div class="lg:hidden">
+            <span
+              class="block bg-gray-700 dark:bg-gray-100 w-full h-[2px] rounded-full"
+            ></span>
+          </div>
+
+          <div class="flex flex-col relative">
+            <input
+              type="email "
+              id="email"
+              name="email"
+              required
+              class="peer input contact-email"
+            />
+            <label for="email" class="label-input-focus label-email"
+              >Email Anda</label
+            >
+            <p class="statement-input hidden statement-email">
+              Format email anda tidak sesuai
+            </p>
+          </div>
+
+          <div class="lg:col-span-2">
+            <span
+              class="block bg-gray-700 dark:bg-gray-100 w-full h-[2px] rounded-full"
+            ></span>
+          </div>
+
+          <div class="flex flex-col relative lg:col-span-2">
+            <textarea
+              name="message"
+              id="message"
+              minlength="5"
+              class="peer input h-28 py-3 rounded-2xl contact-message"
+            ></textarea>
+            <label for="message" class="label-input-focus label-message"
+              >Pesan Anda</label
+            >
+            <p class="statement-input hidden statement-message">
+              Masukan minimal 5 karakter
+            </p>
+          </div>
+
+          <div class="flex justify-end lg:col-start-2">
+            <input
+              type="submit"
+              class="button-download-cv button-submit hidden"
+              value="Send Message"
+            />
+          </div>
+        </form>
+      </article>
+    </main>
+
+    <footer
+      class="grid grid-cols-1 gap-4 mt-10 py-6 pb-36 md:pb-4 bg-gray-700 dark:bg-dark-secondary lg:grid-cols-2 md:h-60"
+    >
+      <section class="flex flex-col text-center gap-1">
+        <h1 class="text-gray-200 font-bold text-xl">
+          ZnovandaP | Web Portfolio
+        </h1>
+        <p class="text-gray-400 font-semibold">Zidane Novanda Putra</p>
+        <p class="text-gray-400 font-semibold">
+          Junior Front-End Web Developer
+        </p>
+        <a
+          href="#"
+          class="text-gray-400 font-semibold underline decoration-2 decoration-purple-700 underline-offset-4 hover:text-gray-200"
+          >znovandaputra@gmail.com</a
+        >
+      </section>
+
+      <section class="flex flex-col text-center gap-3 gap-y-1">
+        <h1 class="text-gray-200 font-bold text-lg">Link to:</h1>
+        <div class="flex flex-wrap justify-center text-center gap-3 gap-y-1">
+          <a
+            class="font-semibold text-base home-button text-gray-400 hover:text-gray-100"
+            >Home</a
+          >
+          <a
+            href="#about"
+            class="font-semibold text-base text-gray-400 hover:text-gray-100"
+            >About</a
+          >
+          <a
+            href="#skills"
+            class="font-semibold text-base text-gray-400 hover:text-gray-100"
+            >Skills</a
+          >
+          <a
+            href="#projects"
+            class="font-semibold text-base text-gray-400 hover:text-gray-100"
+            >Projects</a
+          >
+          <a
+            href="#contact"
+            class="font-semibold text-base text-gray-400 hover:text-gray-100"
+            >Contact</a
+          >
+        </div>
+
+        <section class="flex flex-wrap justify-center text-center gap-4 mt-3">
+          <a
+            href="https://github.com/ZnovandaP"
+            target="_blank"
+            class="group icon-socmed ring-1 ring-gray-50 rounded-full p-2 hover:bg-github"
+          >
+            <img
+              src="../public/icon/socmed_icon/github.svg"
+              width="18px"
+              loading="lazy"
+              alt="Github Icon"
+              class="image-icon-socmed"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/zidane-novanda-putra-58a9b3227/"
+            target="_blank"
+            class="group icon-socmed ring-1 ring-gray-50 rounded-full p-2 hover:bg-linkedin"
+          >
+            <img
+              src="../public/icon/socmed_icon/linkedin.svg"
+              width="18px"
+              loading="lazy"
+              alt="LinkedIn Icon"
+              class="image-icon-socmed"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/znovanda_p/"
+            target="_blank"
+            class="group icon-socmed ring-1 ring-gray-50 rounded-full p-2 hover:bg-instagram"
+          >
+            <img
+              src="../public/icon/socmed_icon/instagram.svg"
+              width="18px"
+              loading="lazy"
+              alt="Instagram Icon"
+              class="image-icon-socmed"
+            />
+          </a>
+          <a
+            href="https://www.facebook.com/zidane.n.putra.3"
+            target="_blank"
+            class="group icon-socmed ring-1 ring-gray-50 rounded-full p-2 hover:bg-facebook"
+          >
+            <img
+              src="../public/icon/socmed_icon/facebook.svg"
+              width="18px"
+              loading="lazy"
+              alt="Facebook Icon"
+              class="image-icon-socmed"
+            />
+          </a>
+          <a
+            href="#"
+            target="_blank"
+            class="group icon-socmed ring-1 ring-gray-50 rounded-full p-2 hover:bg-tiktok"
+          >
+            <img
+              src="../public/icon/socmed_icon/tiktok.svg"
+              width="18px"
+              loading="lazy"
+              alt="Tiktok Icon"
+              class="image-icon-socmed"
+            />
+          </a>
+          <a
+            href="#"
+            target="_blank"
+            class="group icon-socmed ring-1 ring-gray-50 rounded-full p-2 hover:bg-twitter"
+          >
+            <img
+              src="../public/icon/socmed_icon/twitter.svg"
+              width="18px"
+              loading="lazy"
+              alt="Twitter Icon"
+              class="image-icon-socmed"
+            />
+          </a>
+          <a
+            href="#"
+            target="_blank"
+            class="group icon-socmed ring-1 ring-gray-50 rounded-full p-2 hover:bg-whatsapp"
+          >
+            <img
+              src="../public/icon/socmed_icon/whatsapp.svg"
+              width="18px"
+              loading="lazy"
+              alt="whatsapp Icon"
+              class="image-icon-socmed"
+            />
+          </a>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=znovandaputra@gmail.com"
+            target="_blank"
+            class="group icon-socmed ring-1 ring-gray-50 rounded-full p-2 hover:bg-teal-600"
+          >
+            <img
+              src="../public/icon/socmed_icon/email.svg"
+              width="18px"
+              loading="lazy"
+              alt="Email Icon"
+              class="image-icon-socmed"
+            />
+          </a>
+        </section>
+      </section>
+
+      <div class="lg:col-span-2">
+        <span class="block bg-gray-300 w-full h-[3px] rounded-full"></span>
+      </div>
+
+      <section class="text-center lg:col-span-2">
+        <h1 class="text-gray-400 font-semibold">
+          &copy; <span class="year"></span> Zidane Novanda Putra, All rights
+          reserved
+        </h1>
+      </section>
+    </footer>
+
+    <!-- MODAL PARENT / MODAL OVERLAY -->
+    <section
+      id="modal-overlay"
+      class="fixed top-0 bottom-0 left-0 right-0 bg-gray-700/70 z-50 scale-0 hidden backdrop-blur-md transition-all duration-500"
+    >
+      <!-- MODAL -->
+      <section
+        class="modal w-[90vw] h-[75vh] bg-white shadow-lg shadow-gray-600 mx-auto mt-10 rounded-2xl dark:bg-dark-secondary absolute top-[43%] -translate-y-1/2 left-1/2 -translate-x-1/2"
+      >
+        <!-- MODAL HEAD -->
+        <section
+          class="head-modal h-[10%] bg-gray-100 px-4 my-3 flex justify-between items-center rounded-tl-2xl rounded-tr-2xl dark:bg-dark-secondary"
+        >
+          <h1
+            id="modal-title"
+            class="text-gray-500 font-bold text-sm sm:text-base md:text-xl tracking-wide dark:text-gray-50"
+          >
+            Details Project Nutrifruits Landing Page
+          </h1>
+          <button
+            class="button-close-modal flex justify-center items-center w-6 h-6 font-semibold bg-red-400 p-4 rounded-full text-xl text-gray-700 hover:bg-red-500 hover:scale-110 transition-all duration-300"
+          >
+            x
+          </button>
+        </section>
+
+        <!-- MODAL BODY -->
+        <section
+          class="grid grid-cols-1 md:grid-cols-2 overflow-y-scroll overflow-x-hidden h-[80%] w-full bg-gray-50 dark:bg-dark-tertiary"
+        >
+          <!-- left -->
+          <section
+            id="left-section-modal-body"
+            class="group h-full flex justify-center items-center p-3 relative cursor-pointer"
+          >
+            <img
+              src=""
+              alt=""
+              class="w-full h-full rounded-lg"
+              id="image-modal"
+            />
+            <div
+              class="w-full h-full rounded-lg bg-gray-50/30 dark:bg-gray-800/30 backdrop-blur-md flex justify-center items-center absolute top-0 opacity-0 group-hover:opacity-100 transition-all duration-500"
+            >
+              <a
+                id="link-to-pdf"
+                href=""
+                target="_blank"
+                type="button"
+                class="button-download-cv text-center hover:scale-110 hover:bg-gray-100 dark:hover:bg-purple-950 z-10"
+              >
+                Show PDF Project
+              </a>
+            </div>
+          </section>
+          <!-- right -->
+          <section
+            id="right-section-modal-body"
+            class="h-full flex flex-col gap-3 p-3 dark:text-gray-50"
+          >
+            <div>
+              <h1
+                class="font-bold text-[18px] text-gray-700 relative overflow-hidden dark:text-gray-50"
+              >
+                Nama Project
+                <span class="line-decoration"></span>
+              </h1>
+              <h2
+                id="modal-name-project"
+                class="font-semibold indent-8 text-gray-500 mt-2 dark:text-gray-100"
+              ></h2>
+            </div>
+
+            <div>
+              <h1
+                class="font-bold text-[18px] text-gray-700 relative overflow-hidden dark:text-gray-50"
+              >
+                Tech Stack
+                <span class="line-decoration"></span>
+              </h1>
+              <ul
+                id="modal-list-tech-stack"
+                class="list-disc list-inside text-gray-500 font-semibold ml-8 dark:text-gray-200"
+              ></ul>
+            </div>
+
+            <div>
+              <h1
+                class="font-bold text-[18px] text-gray-700 relative overflow-hidden dark:text-gray-50"
+              >
+                Deskripsi Project
+                <span class="line-decoration"></span>
+              </h1>
+              <p
+                id="modal-project-description"
+                class="text-paragraph font-semibold text-gray-500 text-sm my-2 dark:text-gray-200 lg:text-base"
+              ></p>
+            </div>
+
+            <div>
+              <div class="relative">
+                <span class="line-decoration"></span>
+              </div>
+              <div class="flex justify-end items-center gap-4 my-4">
+                <a
+                  href=""
+                  id="link-to-repo"
+                  target="_blank"
+                  class="button-download-cv w-32 text-sm text-center tracking-wider hover:scale-110"
+                  >Repository</a
+                >
+                <a
+                  href=""
+                  id="link-to-visit"
+                  target="_blank"
+                  class="button-download-cv w-32 text-sm text-center tracking-wider bg-emerald-700 hover:scale-110 hover:ring-emerald-700 hover:text-emerald-800 dark:bg-emerald-900"
+                  >Visit</a
+                >
+              </div>
+            </div>
+          </section>
+          <!-- END MODAL BODY -->
+        </section>
+        <!-- MODAL FOOTER -->
+        <section
+          class="foot-modal flex justify-center items-center h-[10%] px-4 my-3 rounded-bl-2xl rounded-br-2xl bg-gray-100 dark:bg-dark-secondary"
+        >
+          <h1
+            class="font-bold text-sm sm:text-base md:text-xl text-gray-500 tracking-wide dark:text-gray-50 text-center"
+          >
+            Zidane Novanda Putra | Junior Front-End Web Developer
+          </h1>
+        </section>
+      </section>
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
