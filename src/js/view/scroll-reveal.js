@@ -6,7 +6,7 @@ const scrollRevealFeature = () => {
     duration:1200,
   };
   
-  ScrollReveal().reveal('.container', slideLeft);
+  ScrollReveal().reveal('article', slideLeft);
   ScrollReveal().reveal('footer', {
     distance: '150%',
     origin: 'bottom',
