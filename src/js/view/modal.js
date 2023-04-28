@@ -58,7 +58,7 @@ const showModal = (dataProjects) => {
           /* left section */
           imageModal.setAttribute(
             "src",
-            `../public/img/projects_image/forModal/${imageFull}`
+            `./public/img/projects_image/forModal/${imageFull}`
           );
           imageModal.setAttribute("alt", `Project ${projectName}`);
           linkToPDF.setAttribute("href", linkPDF);
