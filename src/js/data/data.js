@@ -51,7 +51,7 @@ const dataProjects = [
     techStack: ["HTML 5", "CSS 3", "Javascript", "TailwindCSS"],
     projectDescription:
       "ZnovandaP | Personal Web Portfolio merupakan website portfolio saya pribadi yang berisikan latar belakang, skill yang dikuasai, project apa saja yang telah saya kerjakan, dan lain-lainya selebihnya kunjungi website-nya langsung.",
-    linkProject: "https://znovandap.github.io/nutrifruits/",
+    linkProject: "https://znovandap-portfolio.netlify.app/",
     linkRepo: "https://github.com/ZnovandaP/zidane-novanda-putra-web-portfolio",
     linkPDF:
       "https://drive.google.com/file/d/1NQdQBFO_blmB8kUy9fq3LpfgvuOnuDpY/view?usp=share_link",
